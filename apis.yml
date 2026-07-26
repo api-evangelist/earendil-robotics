@@ -1,8 +1,27 @@
 aid: earendil-robotics
 name: Earendil Robotics
-description: Earendil Robotics is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Earendil Robotics is a Y Combinator-backed defense technology company
+  registered in England and Wales that builds AI-powered situational-awareness and
+  counter-drone systems for tactical units. Its product line includes IVAS, an edge-AI
+  vision-augmentation system fusing night vision, thermal imaging, and laser ranging
+  for total-darkness operation; Aeglos, an autonomous high-speed (300+ km/h) interceptor
+  drone for counter-UAS defense with autonomous target locking and all-weather thermal
+  tracking; and Holo, an ultra-lightweight dual-mode tactical sight combining high-resolution
+  thermal imaging with a fiber-optic reticle. As of this profile the company exposes
+  only a public marketing website and a contact form, with no published developer
+  surface, API, SDKs, documentation, or GitHub organization.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://earendil.io/images/earendil-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/earendil-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,33 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-company-registration: Earendil Robotics LTD, Registered in England and Wales 16735801
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Defense
+- Drones
+- Counter-UAS
+- Computer Vision
+- Thermal Imaging
+- Artificial Intelligence
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://earendil.io/
+- type: DomainSecurity
+  url: security/earendil-robotics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
