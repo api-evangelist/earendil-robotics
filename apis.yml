@@ -50,7 +50,7 @@ tags:
 - Defense
 - Drones
 - Counter-UAS
-- Computer-Vision
+- Computer Vision
 - Thermal Imaging
 - Artificial Intelligence
 - Hardware
@@ -64,6 +64,7 @@ tags_raw:
 - Thermal Imaging
 - Artificial Intelligence
 - Hardware
+- Computer-Vision
 apis: []
 common:
 - type: Website
